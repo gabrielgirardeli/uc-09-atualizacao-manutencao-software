@@ -9,6 +9,15 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+
+  <script type="text/javascript">
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "wct5eqe8ys");
+  </script>
 </head>
 
 <body class="font-nunito bg-white text-gray-900">
@@ -18,23 +27,23 @@
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
       <div class="flex items-center gap-3">
         <!-- BUG #3: imagem com caminho errado - arquivo não existe -->
-        <img src="imagens/logo.webp" alt="Logo Patas Felizes" class="w-12 h-12 rounded-full" />
+        <img src="images/logo.webp" alt="Logo Patas Felizes" class="w-12 h-12 rounded-full" />
         <span class="text-2xl font-extrabold text-white drop-shadow">Patas Felizes</span>
       </div>
       <nav>
-                           <button id="menu-btn">☰</button>
-                        <ul id="menu" class="hidden md:flex">
-    ☰
-  </button>
+        <button id="menu-btn">☰</button>
+        <ul id="menu" class="hidden md:flex">
+          ☰
+          </button>
 
-  <!-- MENU -->
-  <ul id="menu"
-    class="hidden md:flex flex-col md:flex-row gap-6 text-white font-semibold text-sm absolute md:static bg-yellow-400 md:bg-transparent top-16 left-0 w-full md:w-auto p-4 md:p-0">
-          <li><a href="#sobre" class="hover:underline">Sobre</a></li>
-          <li><a href="#servicos" class="hover:underline">Serviços</a></li>
-          <li><a href="#depoimentos" class="hover:underline">Depoimentos</a></li>
-          <li><a href="#contato" class="hover:underline">Contato</a></li>
-        </ul>
+          <!-- MENU -->
+          <ul id="menu"
+            class="hidden md:flex flex-col md:flex-row gap-6 text-white font-semibold text-sm absolute md:static bg-yellow-400 md:bg-transparent top-16 left-0 w-full md:w-auto p-4 md:p-0">
+            <li><a href="#sobre" class="hover:underline">Sobre</a></li>
+            <li><a href="#servicos" class="hover:underline">Serviços</a></li>
+            <li><a href="#depoimentos" class="hover:underline">Depoimentos</a></li>
+            <li><a href="#contato" class="hover:underline">Contato</a></li>
+          </ul>
       </nav>
     </div>
   </header>
@@ -51,7 +60,7 @@
         <p class="text-lg text-gray-500 mb-8 max-w-lg">
           <!-- BUG #5: texto com erro de digitação e informação errada -->
           No Patas Felizes, cuidamos do seu amigo peludo com amor e profissionalismo.
-           Localizado no coração de Florianópolis, atendemos cães, gatos e pequenos animais.
+          Localizado no coração de Florianópolis, atendemos cães, gatos e pequenos animais.
         </p>
         <!-- BUG #6: acessibilidade - botão sem contraste suficiente (amarelo sobre branco) -->
         <a href="#contato"
@@ -61,7 +70,8 @@
       </div>
       <div class="flex-1 flex justify-center">
         <!-- BUG #7: imagem com caminho errado - arquivo não existe -->
-        <img src="imagens/hero-pet.jpg" alt="" class="rounded-3xl shadow-xl w-full max-w-md" />
+        <img src="images/pet1.jpg
+        " alt="" class="rounded-3xl shadow-xl w-full max-w-md" />
         <!-- BUG #8: alt="" vazio em imagem informativa (acessibilidade) -->
       </div>
     </div>
@@ -82,7 +92,7 @@
         Acreditamos que cada pet tem uma personalidade única, e por isso oferecemos atendimento
         personalizado para cada bichinho. Venha nos visitar! Estamos abertos de segunda a sábado,
         <!-- BUG #11: horário errado - diz "8h às 18h" mas na seção de contato diz "9h às 19h" -->
-          das 9h às 19h.
+        das 9h às 19h.
       </p>
     </div>
   </section>
@@ -101,22 +111,22 @@
       <!-- Apenas deixou um comentário de "em breve" como placeholder -->
       <div class="grid md:grid-cols-3 gap-8">
 
-  <div class="bg-white p-6 rounded-2xl shadow">
-    <h3 class="text-xl font-bold text-yellow-500 mb-2">Banho & Tosa</h3>
-    <p class="text-gray-600">Cuidado completo para deixar seu pet limpo e feliz.</p>
-  </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-bold text-yellow-500 mb-2">Banho & Tosa</h3>
+          <p class="text-gray-600">Cuidado completo para deixar seu pet limpo e feliz.</p>
+        </div>
 
-  <div class="bg-white p-6 rounded-2xl shadow">
-    <h3 class="text-xl font-bold text-yellow-500 mb-2">Consulta Veterinária</h3>
-    <p class="text-gray-600">Atendimento com profissionais qualificados.</p>
-  </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-bold text-yellow-500 mb-2">Consulta Veterinária</h3>
+          <p class="text-gray-600">Atendimento com profissionais qualificados.</p>
+        </div>
 
-  <div class="bg-white p-6 rounded-2xl shadow">
-    <h3 class="text-xl font-bold text-yellow-500 mb-2">Hotel para Pets</h3>
-    <p class="text-gray-600">Seu pet bem cuidado enquanto você viaja.</p>
-  </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-bold text-yellow-500 mb-2">Hotel para Pets</h3>
+          <p class="text-gray-600">Seu pet bem cuidado enquanto você viaja.</p>
+        </div>
 
-</div>
+      </div>
     </div>
   </section>
 
@@ -128,21 +138,22 @@
 
         <div class="bg-yellow-50 rounded-2xl p-6 shadow">
           <!-- BUG #12: imagem de avatar com caminho errado -->
-          <img src="imagens/mu1.png" alt="Foto de Ana Lima" class="w-14 h-14 rounded-full mb-4 object-cover" />
+          <img src="images/mu1.png" alt="Foto de Ana Lima" class="w-14 h-14 rounded-full mb-4 object-cover" />
           <!-- BUG #13: acessibilidade - cor de texto cinza muito claro sobre amarelo claro -->
           <p class="text-gray-300 italic mb-4">"Melhor pet shop da cidade! Minha cachorra adora vir aqui."</p>
           <span class="font-bold text-yellow-600">Ana Lima</span>
         </div>
 
         <div class="bg-yellow-50 rounded-2xl p-6 shadow">
-          <img src="imagens/mu2.jpg" alt="Foto de Carlos Souza" class="w-14 h-14 rounded-full mb-4 object-cover" />
+          <img src="images/mu2.jpg" alt="Foto de Carlos Souza" class="w-14 h-14 rounded-full mb-4 object-cover" />
           <p class="text-gray-300 italic mb-4">"Atendimento incrível. O gato ficou lindo após a tosa!"</p>
           <span class="font-bold text-yellow-600">Carlos Souza</span>
         </div>
 
         <div class="bg-yellow-50 rounded-2xl p-6 shadow">
-          <img src="imagens/mu3.jpg" alt="Foto de Júlia Martins" class="w-14 h-14 rounded-full mb-4 object-cover" />
-          <p class="text-gray-300 italic mb-4">"O hotel para pets é excelente. Viajei tranquila sabendo que meu bichinho estava bem cuidado."</p>
+          <img src="images/mu3.jpg" alt="Foto de Júlia Martins" class="w-14 h-14 rounded-full mb-4 object-cover" />
+          <p class="text-gray-300 italic mb-4">"O hotel para pets é excelente. Viajei tranquila sabendo que meu bichinho
+            estava bem cuidado."</p>
           <span class="font-bold text-yellow-600">Júlia Martins</span>
         </div>
 
@@ -150,95 +161,93 @@
     </div>
   </section>
 
- 
-
- 
 
 
 
-   <!-- ===================== GALERIA ===================== -->
-<section id="galeria" class="py-20 px-4 bg-white">
-  <div class="max-w-7xl mx-auto text-center">
-    
-    <h2 class="text-3xl font-extrabold text-yellow-500 mb-4">
-      Nossos Pets Felizes
-    </h2>
-    <p class="text-gray-500 mb-12">
-      Veja alguns dos nossos clientes após o atendimento 💛
-    </p>
 
-    <div class="grid md:grid-cols-3 gap-6">
 
-      <img src="imagens/pet1.jpg" alt="Pet após banho e tosa"
-        class="rounded-2xl shadow hover:scale-105 transition">
 
-      <img src="imagens/pet2.jpg" alt="Cachorro feliz após atendimento"
-        class="rounded-2xl shadow hover:scale-105 transition">
+  <!-- ===================== GALERIA ===================== -->
+  <section id="galeria" class="py-20 px-4 bg-white">
+    <div class="max-w-7xl mx-auto text-center">
 
-      <img src="imagens/pet3.jpg" alt="Gato após cuidado veterinário"
-        class="rounded-2xl shadow hover:scale-105 transition">
+      <h2 class="text-3xl font-extrabold text-yellow-500 mb-4">
+        Nossos Pets Felizes
+      </h2>
+      <p class="text-gray-500 mb-12">
+        Veja alguns dos nossos clientes após o atendimento 💛
+      </p>
 
-    
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <img src="images/pet1.jpg" alt="Pet após banho e tosa" class="rounded-2xl shadow hover:scale-105 transition">
+
+        <img src="images/pet2.jpg" alt="Cachorro feliz após atendimento"
+          class="rounded-2xl shadow hover:scale-105 transition">
+
+        <img src="images/pet3.jpg" alt="Gato após cuidado veterinário"
+          class="rounded-2xl shadow hover:scale-105 transition">
+
+
+
+      </div>
 
     </div>
-
-  </div>
-</section>
+  </section>
 
 
 
-<!-- ===================== AGENDAMENTO ===================== -->
-<section id="agendamento" class="py-20 px-4 bg-yellow-50">
-  <div class="max-w-4xl mx-auto text-center">
+  <!-- ===================== AGENDAMENTO ===================== -->
+  <section id="agendamento" class="py-20 px-4 bg-yellow-50">
+    <div class="max-w-4xl mx-auto text-center">
 
-    <h2 class="text-3xl font-extrabold text-yellow-500 mb-4">
-      Agende um Serviço
-    </h2>
+      <h2 class="text-3xl font-extrabold text-yellow-500 mb-4">
+        Agende um Serviço
+      </h2>
 
-    <p class="text-gray-600 mb-8">
-      Escolha o serviço, data e horário para seu pet
-    </p>
+      <p class="text-gray-600 mb-8">
+        Escolha o serviço, data e horário para seu pet
+      </p>
 
-    <form id="formAgendamento" class="bg-white p-8 rounded-2xl shadow text-left">
+      <form id="formAgendamento" class="bg-white p-8 rounded-2xl shadow text-left">
 
-      <div class="mb-4">
-        <label class="block font-semibold mb-1">Nome</label>
-        <input type="text" id="nomeAg" class="w-full border rounded px-3 py-2">
-      </div>
+        <div class="mb-4">
+          <label class="block font-semibold mb-1">Nome</label>
+          <input type="text" id="nomeAg" class="w-full border rounded px-3 py-2">
+        </div>
 
-      <div class="mb-4">
-        <label class="block font-semibold mb-1">Serviço</label>
-        <select id="servicoAg" class="w-full border rounded px-3 py-2">
-          <option>Banho e Tosa</option>
-          <option>Consulta Veterinária</option>
-          <option>Hotel para Pets</option>
-          <option>Vacinação</option>
-        </select>
-      </div>
+        <div class="mb-4">
+          <label class="block font-semibold mb-1">Serviço</label>
+          <select id="servicoAg" class="w-full border rounded px-3 py-2">
+            <option>Banho e Tosa</option>
+            <option>Consulta Veterinária</option>
+            <option>Hotel para Pets</option>
+            <option>Vacinação</option>
+          </select>
+        </div>
 
-      <div class="mb-4">
-        <label class="block font-semibold mb-1">Data</label>
-        <input type="date" id="dataAg" class="w-full border rounded px-3 py-2">
-      </div>
+        <div class="mb-4">
+          <label class="block font-semibold mb-1">Data</label>
+          <input type="date" id="dataAg" class="w-full border rounded px-3 py-2">
+        </div>
 
-      <div class="mb-4">
-        <label class="block font-semibold mb-1">Horário</label>
-        <input type="time" id="horaAg" class="w-full border rounded px-3 py-2">
-      </div>
+        <div class="mb-4">
+          <label class="block font-semibold mb-1">Horário</label>
+          <input type="time" id="horaAg" class="w-full border rounded px-3 py-2">
+        </div>
 
-      <button type="submit"
-        class="w-full bg-yellow-500 text-white font-bold py-3 rounded-lg hover:bg-yellow-600">
-        Agendar
-      </button>
+        <button type="submit" class="w-full bg-yellow-500 text-white font-bold py-3 rounded-lg hover:bg-yellow-600">
+          Agendar
+        </button>
 
-    </form>
+      </form>
 
-  </div>
-</section>
-
+    </div>
+  </section>
 
 
-<!-- ===================== CONTATO ===================== -->
+
+  <!-- ===================== CONTATO ===================== -->
   <section id="contato" class="py-20 px-4 bg-yellow-400">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl font-extrabold text-white mb-4">Entre em Contato</h2>
@@ -289,7 +298,7 @@
     </div>
   </section>
 
- <!-- ===================== FOOTER ===================== -->
+  <!-- ===================== FOOTER ===================== -->
   <footer class="bg-yellow-600 py-6 px-4 text-center">
     <!-- BUG #19: ano de copyright errado/hardcoded -->
     <p class="text-yellow-100 text-sm">© 2026 Patas Felizes Pet Shop. Todos os direitos reservados.</p>
@@ -298,17 +307,25 @@
   <script src="app.js"></script>
 
   <!-- BOTÃO WHATSAPP -->
-      <a href="https://wa.me/554832324545" target="_blank"
-  class="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50">
+  <a href="https://wa.me/554832324545" target="_blank"
+    class="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50">
 
-  <svg xmlns="http://www.w3.org/2000/svg" 
-       viewBox="0 0 24 24" 
-       fill="currentColor" 
-       class="w-6 h-6">
-    <path d="M20.52 3.48A11.94 11.94 0 0 0 12.05 0C5.45 0 .1 5.35.1 11.95c0 2.1.55 4.15 1.6 5.97L0 24l6.26-1.63a11.93 11.93 0 0 0 5.79 1.48h.01c6.6 0 11.95-5.35 11.95-11.95 0-3.19-1.24-6.18-3.49-8.42zM12.06 21.4h-.01a9.4 9.4 0 0 1-4.79-1.32l-.34-.2-3.72.97.99-3.63-.22-.37a9.42 9.42 0 1 1 8.09 4.55zm5.17-7.07c-.28-.14-1.64-.81-1.9-.9-.25-.09-.43-.14-.62.14-.18.28-.71.9-.87 1.08-.16.19-.32.21-.6.07-.28-.14-1.17-.43-2.23-1.37-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.32.42-.48.14-.16.18-.28.28-.47.09-.19.05-.35-.02-.49-.07-.14-.62-1.49-.85-2.04-.22-.53-.44-.46-.62-.47h-.53c-.18 0-.47.07-.71.35-.25.28-.96.94-.96 2.29 0 1.35.98 2.65 1.12 2.84.14.19 1.93 2.95 4.67 4.13.65.28 1.15.44 1.55.56.65.21 1.24.18 1.71.11.52-.08 1.64-.67 1.87-1.32.23-.65.23-1.21.16-1.32-.07-.11-.25-.18-.53-.32z"/>
-  </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+      <path
+        d="M20.52 3.48A11.94 11.94 0 0 0 12.05 0C5.45 0 .1 5.35.1 11.95c0 2.1.55 4.15 1.6 5.97L0 24l6.26-1.63a11.93 11.93 0 0 0 5.79 1.48h.01c6.6 0 11.95-5.35 11.95-11.95 0-3.19-1.24-6.18-3.49-8.42zM12.06 21.4h-.01a9.4 9.4 0 0 1-4.79-1.32l-.34-.2-3.72.97.99-3.63-.22-.37a9.42 9.42 0 1 1 8.09 4.55zm5.17-7.07c-.28-.14-1.64-.81-1.9-.9-.25-.09-.43-.14-.62.14-.18.28-.71.9-.87 1.08-.16.19-.32.21-.6.07-.28-.14-1.17-.43-2.23-1.37-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.32.42-.48.14-.16.18-.28.28-.47.09-.19.05-.35-.02-.49-.07-.14-.62-1.49-.85-2.04-.22-.53-.44-.46-.62-.47h-.53c-.18 0-.47.07-.71.35-.25.28-.96.94-.96 2.29 0 1.35.98 2.65 1.12 2.84.14.19 1.93 2.95 4.67 4.13.65.28 1.15.44 1.55.56.65.21 1.24.18 1.71.11.52-.08 1.64-.67 1.87-1.32.23-.65.23-1.21.16-1.32-.07-.11-.25-.18-.53-.32z" />
+    </svg>
 
-</a>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK94Q2Q9VL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-CK94Q2Q9VL');
+    </script>
+
+  </a>
 </body>
 
 </html>
