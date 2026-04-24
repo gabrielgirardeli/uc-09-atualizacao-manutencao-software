@@ -29,6 +29,15 @@ namespace ApiPetshop.API.Controllers
             var contatos = await _service.ListarContatos();
             return Ok(contatos);
         }
+
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _service.DeletarContato(id);
+            return NoContent();
+        }
     }
 
 

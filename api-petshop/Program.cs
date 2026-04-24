@@ -3,10 +3,14 @@ using Application.Services;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
+using ApplicationPetshop.Services;
+using InfrastructurePetshop.Repositories;
 
 // 👇 IMPORTANTE (faltava isso)
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<ImagemGaleriaRepository>();
+builder.Services.AddScoped<ImagemGaleriaService>();
 
 // CORS
 builder.Services.AddCors(options =>

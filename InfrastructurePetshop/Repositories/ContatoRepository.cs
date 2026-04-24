@@ -23,5 +23,16 @@ namespace Infrastructure.Repositories
         {
             return await _context.Contatos.ToListAsync();
         }
+
+        public async Task DeletarContato(int id)
+        {
+            var contato = await _context.Contatos.FindAsync(id);
+
+            if (contato == null)
+                return;
+
+            _context.Contatos.Remove(contato);
+            await _context.SaveChangesAsync();
+        }
     }
 }

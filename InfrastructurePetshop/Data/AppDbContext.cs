@@ -16,5 +16,8 @@ namespace Infrastructure.Data
         {
             throw new NotImplementedException();
         }
+
+
+        public DbSet<ImagemGaleria> ImagensGaleria { get; set; }
     }
 }

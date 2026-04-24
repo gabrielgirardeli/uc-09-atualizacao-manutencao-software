@@ -23,5 +23,10 @@ namespace Application.Services
         {
             return await _repository.GetAllAsync();
         }
+
+        public async Task DeletarContato(int id)
+        {
+            await _repository.DeletarContato(id);
+        }
     }
 }

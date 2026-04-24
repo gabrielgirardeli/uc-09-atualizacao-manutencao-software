@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,8 @@ namespace DomainPetshop.Entities
             public string Nome { get; set; } = string.Empty;
             public string Email { get; set; } = string.Empty;
             public string Mensagem { get; set; } = string.Empty;
+
+            [Column("data_envio")]
             public DateTime DataEnvio { get; set; }
         }
     }
